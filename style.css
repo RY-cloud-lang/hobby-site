@@ -109,3 +109,9 @@ th {
     font-size: 0.8em;
   } */
 }
+
+th, td {
+  &[data-sp-display="none"] {
+    display: none;
+  }
+}
