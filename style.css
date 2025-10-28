@@ -128,4 +128,16 @@ th, td {
     display: none;
   }
  }
+  td {
+    border: none;
+    &[data-sp-display="primary"] {
+      font-size: 1.2em;
+      font-weight: bold;
+      flex-basis: 100%;
+    }
+    &[data-sp-display="secondary"] {
+      padding: 0 0.8em;
+      border-radius: 0.5lh;
+    }
+  }
 }
