@@ -5,6 +5,7 @@ const DATA_TYPES = {
   ジャンル: "category",
   おすすめ度: "number",
 };
+
 const DISPLAIES_FOR_SP = {
   タイトル: "primary",
   著者: "none",
