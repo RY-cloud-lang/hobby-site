@@ -5,6 +5,13 @@ const DATA_TYPES = {
   ジャンル: "category",
   おすすめ度: "number",
 };
+const DISPLAIES_FOR_SP = {
+  タイトル: "primary",
+  著者: "none",
+  Wikipediaの紹介: "none",
+  ジャンル: "secondary",
+  おすすめ度: "secondary",
+};
 
 const numeralColumns = {};
 const categoricalColumns = {};
